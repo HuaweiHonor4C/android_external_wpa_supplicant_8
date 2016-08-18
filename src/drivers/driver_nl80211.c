@@ -8848,7 +8848,6 @@ const struct wpa_driver_ops wpa_driver_nl80211_ops = {
 #if defined(ANDROID) && !defined(ANDROID_PLIB_STUB)
 	.driver_cmd = wpa_driver_nl80211_driver_cmd,
 #endif /* ANDROID  && !ANDROID_PLIB_STUB */
-#endif /* ANDROID */
 	.vendor_cmd = nl80211_vendor_cmd,
 	.set_qos_map = nl80211_set_qos_map,
 	.set_wowlan = nl80211_set_wowlan,
